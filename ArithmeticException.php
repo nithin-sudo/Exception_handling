@@ -1,4 +1,8 @@
 <?php
+/**
+ * function accepting two args dividend,divisor
+ * and performing try catch and finally blocks.
+ */
 function divide($dividend,$divisor)
 {
     try
