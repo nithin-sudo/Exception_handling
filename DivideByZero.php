@@ -1,4 +1,8 @@
 <?php
+/**
+ * contains functions and performing 
+ * predefined Exception using try catch.
+ */
 class DivisionByZero
 {
     function divideByZero() 
@@ -15,6 +19,7 @@ class DivisionByZero
         }
     }
 }
+//creating object
 $division = new DivisionByZero();
 $store = $division->divideByZero();
 ?>
